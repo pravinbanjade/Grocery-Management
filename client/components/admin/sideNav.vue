@@ -39,7 +39,7 @@
           </nuxt-link>
         </li>
       </ul>
-      <ul class="menu-list">
+      <!-- <ul class="menu-list">
         <li>
           <nuxt-link to="/admin/purchase/return">
             <div class="list">
@@ -108,7 +108,7 @@
             </div>
           </nuxt-link>
         </li>
-      </ul>
+      </ul> -->
       <ul class="menu-list">
         <li>
           <nuxt-link to="/admin/vendor">
@@ -123,8 +123,8 @@
           </nuxt-link>
         </li>
       </ul>
-      <p class="menu-label has-text-weight-bold">Report</p>
-      <ul class="menu-list">
+      <!-- <p class="menu-label has-text-weight-bold">Report</p> -->
+      <!-- <ul class="menu-list">
         <li>
           <nuxt-link to="/admin/purchase/report">
             <div class="list">
@@ -151,8 +151,17 @@
             </div>
           </nuxt-link>
         </li>
-      </ul>
+      </ul> -->
     </aside>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <br />
     <br />
     <br />
