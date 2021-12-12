@@ -2,7 +2,7 @@
   <adminSidebar>
     <div class="container">
       <div class="columns is-multiline">
-        <div class="column is-5">
+        <!-- <div class="column is-5">
           <div class="box">
             <div class="title-container">
               <div class="columns">
@@ -33,6 +33,33 @@
                   <tr v-for="(item, i) in data" :key="i">
                     <td>{{ item.productName }}</td>
                     <td>{{ item.quantity }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div> -->
+        <div class="column is-5">
+          <div class="box">
+            <div class="title-container">
+              <div class="columns">
+                <div class="column is-10">
+                  <h1 class="is-size-5 has-text-dark">Best Products to buy for you</h1>
+                </div>
+              </div>
+            </div>
+            <div class="table-container">
+              <table class="table is-fullwidth is-striped">
+                <thead>
+                  <tr>
+                    <th>Product List</th>
+                    <!-- <th>Sales</th> -->
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="(item, i) in data" :key="i">
+                    <td>{{ item.productName }}</td>
+                    <!-- <td>{{ item.quantity }}</td> -->
                   </tr>
                 </tbody>
               </table>
